@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+
+}
+.main{
+  margin-top: 10px;
+  height: 100%;
+  width: 100vw;
+}
+h2{
+text-align: center;
+}
+.header{
+  background-color: aliceblue;
+  text-align: center;
+}
+.header h1{
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 90px;
+}
+.navbar{
+ background-color: rgba(21,41,72,255);
+ 
+}
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: rgb(193, 193, 139)
+}
+.container-fluid{
+ margin-left: 50px;
+ margin-right: 80px;
+
+}
+.nav-item{
+padding-left: 30px;
+}
+.homeHead{
+  background-color: lightblue;
+}
+
+.main-section{
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: lightblue;
+  height: 100%; /* 283 */
+  width: 100vw;
+  display: flex;
+
+}
+.section1{
+  /* background-color: lightcoral; */
+  width: 65vw;
+
+}
+.section2{
+  /* background-color: cyan; */
+  width: 30vw;
+
+}
+.card {
+ margin: 5px;
+}
+.card-title{
+  font-size: 16px;
+}
+.card-text{
+  font-size: 15px;
+}
+.active{
+  font-weight: bold;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.blink {
+  text-align: center;
+  animation: blinker 2.5s linear infinite;
+  color: rgb(38, 59, 121);
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+
+/*======================
+    404 page
+=======================*/
+.page_404{  background:#fff; font-family: 'Arvo', serif;
+
+}
+.containerError{
+ display: flex;
+ justify-content: center;
+}
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 45vh;
+    background-position: center;
+ }
+
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: rgba(21,41,72,255);
+    margin: 0 0 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
