@@ -5,7 +5,7 @@ const Latest = () => {
   const [user, setuser] = useState([]);
 
   const getUsers = async () => {
-    const res = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${process.env.API_KEY}`)
+    const res = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${process.env.REACT_APP_API_KEY}`)
     setuser(res.data.articles)
     // console.log(res.data.articles.url)
   }

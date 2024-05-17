@@ -9,7 +9,7 @@ const NewsCard = (props) => {
 
   const getnews = async () => {
     try {
-      const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=${props.data}&apiKey=${process.env.API_KEY}`)
+      const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=${props.data}&apiKey=${process.env.REACT_APP_API_KEY}`)
       // console.log(response.data.totalResults);
       const totalresult = response.data.totalResults;
       if (totalresult !== 0) {
