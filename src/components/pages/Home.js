@@ -7,7 +7,7 @@ const Home = () => {
 
         const [data, setdata] = useState([]);
         const breakingNews = async () => {
-                const res = await axios.get(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=c13dc5ddc53b4ae7a1ea61c73031765e`)
+                const res = await axios.get(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${process.env.API_KEY}`)
                 // console.log(res.data.articles)
                 setdata(res.data.articles)
         }
